@@ -1,0 +1,9 @@
+{
+  "name": "Copy of 深蓝伴侣 (DeepBlue Mate)",
+  "description": "深蓝伴侣是一款高精尖的未来派AI助手，专为深海作业与航行管理设计。集成了图像生成、实时搜索、地图探测及高级机舱巡检分析功能。",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation",
+    "microphone"
+  ]
+}
