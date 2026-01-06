@@ -1,6 +1,6 @@
 
 import { GoogleGenAI, Type, GenerateContentResponse } from "@google/genai";
-import { AISettings } from "../types";
+import { AISettings } from "../types.ts";
 
 const DEFAULT_SETTINGS: AISettings = {
   baseUrl: 'https://api.xiaomimimo.com/v1/',

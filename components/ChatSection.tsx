@@ -1,8 +1,8 @@
 
 import React, { useState, useRef, useEffect } from 'react';
-import { geminiService } from '../services/gemini';
-import { ChatMessage, AISettings } from '../types';
-import { Button, Input, Card } from './UI';
+import { geminiService } from '../services/gemini.ts';
+import { ChatMessage, AISettings } from '../types.ts';
+import { Button, Input, Card } from './UI.tsx';
 
 const SettingsDialog: React.FC<{
   isOpen: boolean;

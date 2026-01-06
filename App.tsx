@@ -1,16 +1,16 @@
 
 import React, { useState, useEffect } from 'react';
-import { AppSection } from './types';
-import { COLORS, ICONS } from './constants';
-import { Card } from './components/UI';
-import { CyberLogo } from './components/Logo';
-import { CyberBackground } from './components/CyberBackground';
+import { AppSection } from './types.ts';
+import { COLORS, ICONS } from './constants.tsx';
+import { Card } from './components/UI.tsx';
+import { CyberLogo } from './components/Logo.tsx';
+import { CyberBackground } from './components/CyberBackground.tsx';
 
 // 导入重组后的功能组件
-import AnalysisSection from './components/AnalysisSection'; // 作业感知 (Operations)
-import ToolsSection from './components/ToolsSection';         // 深蓝工具 (Tools)
-import ManagementSection from './components/ManagementSection'; // 合规审计 (Management)
-import ChatSection from './components/ChatSection';         // 心灵港湾 (Care)
+import AnalysisSection from './components/AnalysisSection.tsx'; // 作业感知 (Operations)
+import ToolsSection from './components/ToolsSection.tsx';         // 深蓝工具 (Tools)
+import ManagementSection from './components/ManagementSection.tsx'; // 合规审计 (Management)
+import ChatSection from './components/ChatSection.tsx';         // 心灵港湾 (Care)
 
 const App: React.FC = () => {
   const [activeSection, setActiveSection] = useState<AppSection>(AppSection.CARE);
